@@ -1,0 +1,47 @@
+body{
+  background-color:black;
+  background-image:url('/images/Naruto Background.jpg');
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Nanum+Pen+Script');
+
+.center{
+  margin-top:10%;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  width:50%;
+  margin-bottom:5%;
+}
+
+.quote-box{
+  width:35%;
+  padding:30px;
+  border:0;
+  margin:0;
+  margin-left:auto;
+  margin-right:auto;
+  background: rgba(204, 204, 204, 0.5);
+  border-radius:12px;
+}
+
+p{
+  font-family: 'Nanum Pen Script', cursive;
+  font-size:15px;
+}
+
+.button{
+  display:inline-block;
+  background-color:#e7e7e7;
+  color:black;
+  padding:6px 8px;
+  border-radius:4px;
+  transition-duration: 0.4s;
+}
+
+.button:hover{
+  background-color:black;
+  color:white;
+}
