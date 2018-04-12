@@ -28,7 +28,7 @@ var quoteList=[
 
 //Is called on button click. Adds the quote to the page
 function changeQuote(){
-  document.getElementById("sugoi").innerHTML=quote();
+  document.getElementById("quote").innerHTML=quote();
   document.getElementById("shinobi").innerHTML=shinobi();
 }
 
