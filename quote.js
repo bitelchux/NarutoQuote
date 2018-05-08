@@ -26,22 +26,11 @@ var quoteList=[
   ["Nara Shikamaru","What a drag..."]
 ]
 
+$("button").click(changeQuote);
+
 //Is called on button click. Adds the quote to the page
 function changeQuote(){
-  document.getElementById("quote").innerHTML=quote();
-  document.getElementById("shinobi").innerHTML=shinobi();
-}
-
-//the person saying the quote. Contains person AND the quote in an array
-var ninja;
-
-//Picks a random quote and returns the quote
-function quote(){
-  ninja=quoteList[Math.floor(Math.random()*quoteList.length)];
-  return("\""+ninja[1]+"\"");
-}
-
-//returns the person saying the quote
-var shinobi = function(){
-  return ("- "+ninja[0]);
+  var ninja=quoteList[Math.floor(Math.random()*quoteList.length)];
+  $("#quote").html="\""+ninja[1]+"\"";
+  $("#shinobi").html="- "+ninja[0];
 }

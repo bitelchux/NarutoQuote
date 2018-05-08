@@ -8,21 +8,17 @@ body{
 @import url('https://fonts.googleapis.com/css?family=Nanum+Pen+Script');
 
 .center{
-  margin-top:10%;
+  margin: 10% auto 5% auto;
   display:block;
-  margin-left:auto;
-  margin-right:auto;
   width:50%;
-  margin-bottom:5%;
 }
 
 .quote-box{
+  text-align: center;
+  margin:0 auto 0 auto;
   width:40%;
   padding:30px;
   border:0;
-  margin:0;
-  margin-left:auto;
-  margin-right:auto;
   background: rgba(204, 204, 204, 0.5);
   border-radius:12px;
 }
