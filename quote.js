@@ -1,3 +1,5 @@
+$(document).ready(function(){
+
 var quoteList=[
   //Naruto
   ["Uzumaki Naruto","Dattebayo"],
@@ -34,3 +36,5 @@ function changeQuote(){
   $("#quote").html="\""+ninja[1]+"\"";
   $("#shinobi").html="- "+ninja[0];
 }
+
+});
