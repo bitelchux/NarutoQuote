@@ -33,8 +33,8 @@ $("button").click(changeQuote);
 //Is called on button click. Adds the quote to the page
 function changeQuote(){
   var ninja=quoteList[Math.floor(Math.random()*quoteList.length)];
-  $("#quote").html="\""+ninja[1]+"\"";
-  $("#shinobi").html="- "+ninja[0];
+  $("#quote").html("\""+ninja[1]+"\"");
+  $("#shinobi").html("- "+ninja[0]);
 }
 
 });
